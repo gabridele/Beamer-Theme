@@ -1,5 +1,7 @@
 # Beamer theme - University of Trento
- 
+
+This repository is a fork from the work of Giacomo Borin and Leonardo Errati. Here you can find an implementation for the CIMeC department.
+
 This project aims to code a LaTeX beamer theme for master's & bachelor's degrees of the University of Trento (Italy), but also to provide a quasi-official theme for professors, students, et cetera working or studying at UniTn. As of now, this is a _non-official_ project. The theme will follow current guidelines for style and impagination.
 
 Latest (original) version: `v0.2-beta2`, may 2021
@@ -8,7 +10,7 @@ Latest forked version: June 2024
 
 ![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
 
-**colours & themes:** The theme is currently available only in **math** and **physisc** versions, we'll soon add some other departments. We will also add different colours, and various other settings.
+**colours & themes:** The theme is currently available only in **math**, **physisc**, and **cimec** versions.
 
 ## HOW TO USE:
 The second beta release is available! However, the project is still marked as incomplete... therefore you might run into some issues.
@@ -16,7 +18,7 @@ The second beta release is available! However, the project is still marked as in
 In order to use it you will have to 
 1. insert in your main folder the .sty files you will find here,
 2. add into an `images` folder the images you'll also find here,
-3. call as usual the `\usetheme{beunitn}` command in your beamer document; this will require setting the right options, i.e. `\usetheme[math]{beunitn}` or `\usetheme[physics]{beunitn}`.
+3. call as usual the `\usetheme{beunitn}` command in your beamer document; this will require setting the right options, i.e. `\usetheme[math]{beunitn}`, `\usetheme[physics]{beunitn}` or `\usetheme[cimec]{beunitn}`.
 
 You should be able to fully customize the theme according to your personal preferences. Read below to learn about the dummy test(s) of its functionality.
 
