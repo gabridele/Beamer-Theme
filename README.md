@@ -2,6 +2,8 @@
 
 ## CIMeC version
 
+--- implementation of cimec theme in progress, 16:9 version coming soon as well ---
+
 This repository is a fork from the work of Giacomo Borin and Leonardo Errati. Here you can find an implementation for the CIMeC department.
 
 This project aims to code a LaTeX beamer theme for master's & bachelor's degrees of the University of Trento (Italy), but also to provide a quasi-official theme for professors, students, et cetera working or studying at UniTn. As of now, this is a _non-official_ project. The theme will follow current guidelines for style and impagination.
