@@ -2,7 +2,8 @@
  
 This project aims to code a LaTeX beamer theme for master's & bachelor's degrees of the University of Trento (Italy), but also to provide a quasi-official theme for professors, students, et cetera working or studying at UniTn. As of now, this is a _non-official_ project. The theme will follow current guidelines for style and impagination.
 
-Latest version: `v0.2-beta2`, may 2021
+Latest (original) version: `v0.2-beta2`, may 2021
+Latest forked version: June 2024
 
 ![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
 
