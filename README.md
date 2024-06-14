@@ -8,7 +8,7 @@ Latest (original) version: `v0.2-beta2`, may 2021
 
 Latest forked version: June 2024
 
-![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
+<img width="785" alt="cimec_theme_test" src="https://github.com/gabridele/Beamer-Theme/assets/125871960/9a210e17-7ae0-4479-8688-c16b6ec13ed3">
 
 **colours & themes:** The theme is currently available only in **math**, **physisc**, and **cimec** versions.
 
