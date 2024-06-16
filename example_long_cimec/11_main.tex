@@ -1,0 +1,154 @@
+\documentclass[11pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[font=tiny]{caption}
+\usepackage{langsci-gb4e}
+
+\setbeamerfont{subtitle}{size=\normalsize}
+\setbeamerfont{title}{size=\Large}
+\setbeamerfont{author}{size=\large}
+\setbeamercovered{invisible}
+\usepackage{xcolor}
+\usepackage{mdframed}
+
+\newenvironment{block*}{
+    \begin{mdframed}[
+        backgroundcolor=white,
+        linecolor=black,
+        linewidth=0pt,
+        innerleftmargin=8pt,
+        innerrightmargin=10pt,
+        innertopmargin=6pt,
+        innerbottommargin=6pt
+    ]
+}{
+    \end{mdframed}
+}
+
+%make title, subtitle and presenter smaller
+%impostazioni per la prima diapositiva
+\title{{Tool use and language share syntactic processes and neural patterns in the basal ganglia}}
+
+\subtitle{\small{\vspace*{0.2cm}by S. Thibault, R. Py, A. M. Gervasi, R. Salemme, E. Koun, M. Lövden, V. Boulenger, A. C. Roy, \& C. Brozzoli}}
+\medskip
+
+\author{\vspace*{-0.4cm}Presented by Gabriele De Leonardis}
+\date{}
+
+%impostazioni per la scelta di tema e colore 
+\usetheme[cimec]{beunitn} 
+
+
+%impostazioni per l'uso delle immagini
+\usepackage{graphicx}
+\graphicspath{{./images/paper_pics/}}
+\usepackage[absolute, overlay]{textpos}
+
+%impostazioni per l'uso di textblock
+\usepackage[absolute, overlay]{textpos}
+
+%setto il beamer a transparent per le altre scritte
+\setbeamercovered{transparent}
+
+%cambio l'ambiente matematico "teorema" in italiano
+%\renewenvironment{proof}[1][Dimostrazione]{\noindent\textbf
+%{#1.}}{\ \rule{0.5em}{0.5em}}
+%\newtheorem{theorem}{Teorema}
+
+%Permetto alla bibliografia di essere stampata anche se non citata
+\nocite{*}
+
+%costruzione della bibliografia
+\usepackage{csquotes}
+\usepackage[style=numeric]{biblatex}
+\addbibresource{biblio.bib}
+
+
+%\author{Gabriele De Leonardis}
+%\date{}
+\begin{document}
+\begin{frame}[noframenumbering]
+    \maketitle
+\end{frame}
+
+\section{Background}
+
+\input{1_Background}
+
+%\input{1.1_Background}
+
+%\input{1.2_Background}
+
+%\input{1.3_Background}
+
+%\input{1.4_Background}
+
+%\input{1.5_Background}
+
+\section{Questions}
+
+\input{2_Questions}
+
+\section{Hypotheses}
+
+\input{3_Hypotheses}
+
+\section{Methods}
+
+\input{4_Methods}
+
+\section{Experiment 1}
+
+\input{4.1_Exp1}
+
+\input{4.1.1_Exp1}
+
+\input{4.2_Exp1}
+
+\input{4.3_Exp1}
+
+\input{4.4_Exp1}
+
+\input{4.5_Exp1}
+
+\input{4.6_Exp1}
+
+\section{Experiment 2}
+
+\input{5.1_Exp2}
+
+\input{5.2_Exp2}
+
+\input{5.3_Exp2}
+
+\section{Experiment 3}
+
+\input{6.1_Exp3}
+
+\input{6.2_Exp3}
+
+%\section{Experiment 4}
+
+%\input{7.1_Exp4}
+
+%\input{7.2_Exp4}
+
+%\section{Experiment 5}
+
+%\input{8.1_Exp5}
+
+\section{Discussion}
+
+\input{9_Discussion}
+
+%\input{9.1_Discussion}
+
+%\input{9.2_Discussion}
+
+\input{9.4_Discussion}
+
+%\cventry{}{\vspace*{-1.2\baselineskip}\printbibliography}{}{}{}{}
+
+%\vspace{2cm}{\printbibliography[title={Bibliography}]}
+\end{document}
